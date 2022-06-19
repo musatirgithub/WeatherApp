@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="js/aes.js"></script>
+  <script src="js/Extentions.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <section class="top-banner">
+    <div class="container">
+      <center>
+        <img src="./img/Shutter.svg" alt="Bank logo" class="nav__logo"
+          id="logo" />
+          <h1 class="heading">
+            Weather App</h1>
+      </center>
+      <form>
+        <input type="text" placeholder="Search for a city" autofocus>
+        <button type="submit">SUBMIT</button>
+        <span class="msg"></span>
+      </form>
+    </div>
+  </section>
+  <section class="ajax-section">
+    <div class="cities-container">
+      <ul class="cities">
+      </ul>
+    </div>
+  </section>
+  <footer class="page-footer">
+    <div class="container">
+      <small>Change Language
+        <div class="flags">
+          <div class="turkish">
+            <img class="turkish-flag" src="./img/Flag_of_Turkey.svg.png" alt="" >
+          </div>
+          <div class="american">
+            <img class="american-flag" src="./img/vector-image-american-flag-260nw-186201893.webp" alt="">
+          </div>
+        </div>
+      </small>
+    </div>
+  </footer>
+  <script src="weather2.js"></script>
+</body>
+
+</html>
