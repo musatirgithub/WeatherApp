@@ -3,7 +3,6 @@
 <ul>
   <li>First I've declared my variables,</li>
   <li>Then added an event listener to form submit,</li>
-  <li>Received hour, minute, second, day and month from the date,</li>
   <li>By using an async function and Axios I've received data from "https://api.openweathermap.org",</li>
   <li>The code checks the city name then if we don't have the the city creates a card,</li>
   <li>If the city already exists in the cards or there is a problem writes an error message for 5 seconds.</li>
