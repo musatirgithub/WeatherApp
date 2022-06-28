@@ -7,7 +7,7 @@
   <li>The code checks the city name then if we don't have the the city creates a card,</li>
   <li>If the city already exists in the cards or there is a problem writes an error message for 5 seconds.</li>
   <li>It's also possible to change language by clicking the flags.</li>
-  <li>Gif image of the project is below 👇. Hope you like the project! </li>
+  <li>Gif image of the project is below. 👇 Hope you like the project! </li>
 </ul>  
 <div class="pics">
   <img src="https://musatirgithub.github.io/WeatherApp/WeatherApp.gif" width="600px">
